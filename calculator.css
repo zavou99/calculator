@@ -1,0 +1,34 @@
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+ }
+body  {
+     margin: 20px;
+     padding: 20px;
+     box-sizing: border-box;
+     display: flex;
+ }
+
+.screen {
+ border: black;
+ font-size: 70px;
+ padding: 5px;
+ background: black;
+ color: white;
+
+}
+.buttons{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+button{
+ flex:25%;
+ font-size: 50px;
+
+ }
+
+.clear{
+ background: rgb(63, 223, 14);
+}
